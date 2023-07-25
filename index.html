@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Notas</title>
+</head>
+<body>
+    <div class="conteudo">
+        <h2>Página de notas</h2>
+    <form id="form">
+
+        <label> <strong>Nome</strong>
+            <br>
+            <input type="text" name="Nome">
+        </label>
+        <br>
+
+        <label><strong>Prova 1 </strong>
+            <br>
+            <input type="number" name="Prova1">
+        </label>
+        <br>
+
+        <label> <strong>Prova 2</strong>
+            <br>
+            <input type="number" name="Prova2">
+        </label>
+
+<br>
+        <label>
+           <strong> Trabalho</strong>
+            <br>
+            <input type="number" name="Trabalho">
+        </label>
+
+<br>
+        <label>
+          <strong> Média</strong>
+            <br>
+
+            <input type="text" name="Media" disabled="">
+        </label>
+
+        <br>
+
+        <input type="button" value="Calcular" class="button" onclick="media();"> 
+
+        <input type="button" value="Limpar" class="button"  onclick="limpar();">
+    </form>
+</div>
+    <script src="index.js"></script>
+</body>
+</html>

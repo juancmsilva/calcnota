@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h2 {
+    margin-bottom: 20px;
+}
+
+.conteudo  {
+    margin-left: 2%;
+    margin-top: 2%;
+}
+
+input { 
+    padding: 6px;
+    margin-bottom: 20px;
+}
+
+.button {
+    padding: 10px;
+    border: 0px;
+    background-color: #9f9e9e;
+}
+
+.button:hover {
+    background-color: rgb(74, 30, 114);
+}
